@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+  @apply flex items-center justify-center h-screen overflow-hidden;
+}
+
+.w-160 {
+  width: 40rem;
+}
+
+.h-160 {
+  height: 40rem;
+}
